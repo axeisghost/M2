@@ -10,7 +10,7 @@ package edu.gatech.oad.antlab.person;
  */
 public class Person5 {
   /** Holds the persons real name */
-  private String name;
+  private String name = "Tiancheng Gong";
   	/**
 	 * The constructor, takes in the persons
 	 * name
@@ -36,8 +36,8 @@ public class Person5 {
         }
         String outputString = input;
         int l = outputString.length();
-        outputString = outputString.substring(1, l - 1) + outputString.charAt(0);
-        outputString = outputString.substring(1, l - 1) + outputString.charAt(0);
+        outputString = outputString.substring(1, l) + outputString.charAt(0);
+        outputString = outputString.substring(1, l) + outputString.charAt(0);
 	  return outputString;
 	}
 	
